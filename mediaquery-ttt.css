@@ -1,0 +1,16 @@
+
+    .gamecontainer{
+        width: 670px;
+
+        flex-wrap: wrap;
+    }
+    .gameinfo{
+        margin-top: 34px;
+    }
+    .gameinfo span{
+        font-size: 1.5rem;
+    }
+    .container { 
+        grid-template-rows: repeat(3, 20vw);
+        grid-template-columns: repeat(3, 20vw);
+    }
